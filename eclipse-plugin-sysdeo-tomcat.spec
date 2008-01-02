@@ -14,6 +14,7 @@ Group:		Development/Java
 Source0:	http://www.sysdeo.com/sysdeo/content/download/393/4930/file/tomcatPluginV31.zip
 BuildArch:	noarch
 Requires:	eclipse tomcat5-webapps
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Plugin for Eclipse that helps out creating Tomcat projects.
