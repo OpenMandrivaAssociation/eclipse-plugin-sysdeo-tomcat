@@ -2,7 +2,7 @@
 %define	plugin	sysdeo-tomcat
 %define	name	%{oname}-plugin-%{plugin}
 %define	version	3.1.0
-%define	release	1
+%define	release	2
 
 Name:		%{name}
 Summary:	Sysdeo Eclipse Tomcat Launcher plugin
