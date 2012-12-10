@@ -48,3 +48,25 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_datadir}/eclipse/plugins/com.sysdeo.eclipse.tomcat_%{version}
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 3.1.0-3mdv2011.0
++ Revision: 618002
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 3.1.0-2mdv2010.0
++ Revision: 428506
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 3.1.0-1mdv2008.1
++ Revision: 140723
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Wed Sep 13 2006 Per Øyvind Karlsen <pkarlsen@mandriva.com> 3.1.0-1mdv2007.0
+- initial release
+
