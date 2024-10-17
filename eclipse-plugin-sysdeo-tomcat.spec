@@ -9,7 +9,7 @@ Summary:	Sysdeo Eclipse Tomcat Launcher plugin
 Version:	%{version}
 Release:	%mkrel %{release}
 License:	MIT
-Url:		http://www.sysdeo.com/eclipse/tomcatplugin/
+Url:		https://www.sysdeo.com/eclipse/tomcatplugin/
 Group:		Development/Java
 Source0:	http://www.sysdeo.com/sysdeo/content/download/393/4930/file/tomcatPluginV31.zip
 BuildArch:	noarch
