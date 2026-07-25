@@ -2,12 +2,12 @@
 %define	plugin	sysdeo-tomcat
 %define	name	%{oname}-plugin-%{plugin}
 %define	version	3.1.0
-%define	release	3
+%define	release 4
 
 Name:		%{name}
 Summary:	Sysdeo Eclipse Tomcat Launcher plugin
 Version:	%{version}
-Release:	%mkrel %{release}
+Release:	%{release}.1
 License:	MIT
 Url:		https://www.sysdeo.com/eclipse/tomcatplugin/
 Group:		Development/Java
